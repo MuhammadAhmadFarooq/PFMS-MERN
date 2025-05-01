@@ -1,0 +1,17 @@
+@import '../shared/common.css';
+
+.expense-container {
+    composes: container;
+}
+
+.expense-header {
+    composes: header;
+}
+
+.expense-controls {
+    composes: controls;
+}
+
+.expense-table {
+    composes: data-table;
+} 

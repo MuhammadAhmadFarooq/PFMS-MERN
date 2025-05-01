@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@ant-design/charts": "^2.2.1",
+    "cors": "^2.8.5",
+    "gh-pages": "^6.2.0"
+  }
+}

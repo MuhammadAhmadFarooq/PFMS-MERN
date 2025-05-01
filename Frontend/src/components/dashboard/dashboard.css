@@ -1,0 +1,67 @@
+@import '../shared/common.css';
+
+.dashboard-container {
+    composes: container;
+    padding: 24px;
+}
+
+.alerts-section {
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.statistics-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-bottom: 24px;
+}
+
+.statistics-cards .ant-card {
+    text-align: center;
+    box-shadow: var(--shadow-sm);
+    transition: all 0.3s ease;
+}
+
+.statistics-cards .ant-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.chart-card {
+    margin-bottom: 24px;
+    box-shadow: var(--shadow-sm);
+}
+
+.breakdown-section {
+    margin-bottom: 24px;
+}
+
+.breakdown-section .ant-card {
+    height: 100%;
+    box-shadow: var(--shadow-sm);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .statistics-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .breakdown-section .ant-col {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .statistics-cards {
+        grid-template-columns: 1fr;
+    }
+    
+    .dashboard-container {
+        padding: 16px;
+    }
+} 

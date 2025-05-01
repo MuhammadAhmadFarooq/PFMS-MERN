@@ -1,0 +1,9 @@
+@import '../shared/common.css';
+
+.production-container {
+    composes: container;
+}
+
+.production-header {
+    composes: header;
+} 

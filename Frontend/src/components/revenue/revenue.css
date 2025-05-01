@@ -1,0 +1,46 @@
+@import '../shared/common.css';
+
+.revenue-container {
+    composes: container;
+}
+
+.revenue-header {
+    composes: header;
+}
+
+.statistics-cards {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+    padding: 16px;
+}
+
+.ant-card {
+    flex: 1;
+    padding: 16px;
+}
+
+.ant-statistic-content {
+    color: #52c41a;
+    padding: 8px 0;
+}
+
+.ant-table-cell .amount {
+    font-family: monospace;
+    font-weight: 500;
+    padding: 8px;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 8px;
+    padding-right: 8px;
+}
+
+.ant-modal-body {
+    padding: 24px;
+}
+
+.ant-form-item {
+    padding: 8px 0;
+} 

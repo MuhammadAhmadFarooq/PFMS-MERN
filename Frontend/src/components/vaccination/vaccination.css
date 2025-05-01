@@ -1,0 +1,18 @@
+@import '../shared/common.css';
+
+.vaccination-container {
+    composes: container;
+    
+}
+
+.vaccination-header {
+    composes: header;
+}
+
+.vaccination-controls {
+    composes: controls;
+}
+
+.vaccination-table {
+    composes: data-table;
+} 

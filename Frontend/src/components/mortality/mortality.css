@@ -1,0 +1,17 @@
+@import '../shared/common.css';
+
+.mortality-container {
+    composes: container;
+}
+
+.mortality-header {
+    composes: header;
+}
+
+.mortality-controls {
+    composes: controls;
+}
+
+.mortality-table {
+    composes: data-table;
+} 

@@ -1,0 +1,104 @@
+.navbar-logo-and-name{
+    display: flex;
+    justify-content: flex-start;
+    gap:10px;
+    font-size: 20px;
+    align-items: center;
+    padding-top : 2rem;
+    padding-left: 11rem;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+p{
+    font-size: 0.8rem;
+}
+
+.logo{
+    width: 3rem;
+    height: 3rem;;
+}
+
+.welcome-message1{
+    font-size:2.5rem;
+    font-weight:600;
+}
+
+.welcome-message2{
+    font-size:2rem;
+    font-weight:400;
+    color:#878A99;
+}
+
+.signup-and-image{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    padding-top:3rem;
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: column;
+    height: 23rem;
+}
+
+.first-last-name{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width:100%;
+}
+
+.first-name{
+    width:49%;
+}
+
+.input-box-for-name{
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 0.15%;
+}
+
+.input-box{
+    height: 2.5rem;
+    border-radius: 0.15%;
+}
+
+.signup-button{
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+    color: white;
+    background-color: #7539FF;
+}
+
+.signup-acc{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 0.5em;
+    width:100%;
+    padding-top:1rem ;
+}
+
+.links{
+    color: #7539FF;
+    text-decoration:none;
+}
+
+.links:hover{
+    color: #7539FF;
+    text-decoration:underline;
+}
+
+.already-have-acc{
+    font-size: 1rem;
+}

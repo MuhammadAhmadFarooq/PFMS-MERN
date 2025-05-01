@@ -1,0 +1,9 @@
+@import '../shared/common.css';
+
+.flock-container {
+    composes: container;
+}
+
+.flock-header {
+    composes: header;
+} 

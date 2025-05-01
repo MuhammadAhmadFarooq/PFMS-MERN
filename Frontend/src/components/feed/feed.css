@@ -1,0 +1,9 @@
+@import '../shared/common.css';
+
+.feed-container {
+    composes: container;
+}
+
+.feed-header {
+    composes: header;
+} 
